@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Task_3_7 | matuzaite</title>
+</head>
+
+<body>
+  <div class="order-form-container">
+    <h1>Sign Up</h1>
+    <div class="steps">
+      <span class="step step1 ">Your info</span>
+      <span class="step step2 active-step">Your preferences</span>
+    </div>
+
+    <form action="" class="order-form order-form2">
+
+      <label for="allergies">Food Allergies</label>
+      <textarea name="" id="allergies" cols="20" rows="5"></textarea>
+      <h3 for="frequency">Frequency</h3>
+      <label for="weekly">Weekly
+        <input name="freq" type="radio" value="Weekly" id="weekly"></label>
+      <label for="biweekly">Biweekly
+        <input name="freq" type="radio" value="Biweekly" id="biweekly"></label>
+      <label for="monthly">Monthly
+        <input name="freq" type="radio" value="Monthly" id="monthly"></label>
+
+      <h3 for="pack-size">Package size</h3>
+      <label for="taste-test">Taste test
+        <input type="radio" name="pack" value='Taste test' id="taste-test"></label>
+      <label for="healthy">Healthy Highlight
+        <input type="radio" name="pack" value='Healthy Highlight' id="healthy"></label>
+      <label for="full">Full plate
+        <input type="radio" name="pack" value="Full plate" id="full"></label>
+
+
+      <button class="sign-in-btn">Sign Up</button>
+    </form>
+  </div>
+  <!--script-->
+  <script src="/js/preferences.js"></script>
+</body>
+
+</html>
